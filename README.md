@@ -1,3 +1,9 @@
+# Teste A/B Electronic House
+<p align="center">
+  <img src="https://github.com/TiagoTBarreto/ProjetoA-B/assets/137197787/99611ff6-3d15-42e2-b468-8ee74bfcd6d1" width="100%" height="300">
+</p>
+
+
 1. Olhei as distribuições entre o grupo controle e teste e são homogêneas entre os gêneros, países e dispositivo de acesso.
    
 ![image](https://github.com/TiagoTBarreto/ProjetoA-B/assets/137197787/2255ba6c-8d46-4348-a60d-c1eb057044c7)
@@ -84,4 +90,4 @@
 
 + Os dados de compras utilizados na análise abrangem um período de 4 anos. Vamos considerar um cenário hipotético: durante esses 4 anos, foram registradas 1017 compras na Austrália, gerando um faturamento de R$1.916.778,00 para a empresa. Isso representou 2,22% do faturamento total das compras do estudo. Supondo que todas as compras fossem realizadas utilizando o Preenchimento Automático, o faturamento aumentaria para R$1.992.829,59, resultando em um aumento de R$76.051,59. Isso representaria 2,31% do faturamento total do estudo.
 
-+ Entretanto, as compras provenientes da Austrália representam apenas 2,20% do total das compras da empresa. Portanto, com base nessa análise, conclui-se concluir que não vale a pena implementar essa estratégia exclusivamente para esse segmento.
++ Entretanto, as compras provenientes da Austrália representam apenas 2,20% do total das compras da empresa. Portanto, com base nessa análise, conclui-se concluir que não vale a pena implementar o Preenchimento Automático exclusivamente para esse segmento.
