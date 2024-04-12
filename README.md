@@ -1,5 +1,7 @@
 1. Olhei as distribuições entre o grupo controle e teste e são homogêneas entre os gêneros, países e dispositivo de acesso.
-![[Pasted image 20240409161931.png]]
+   
+![image](https://github.com/TiagoTBarreto/ProjetoA-B/assets/137197787/2255ba6c-8d46-4348-a60d-c1eb057044c7)
+
 2. A métrica-chave de desempenho (KPI) definida para o projeto foi o número de compras realizadas, uma vez que a mudança no formato de preenchimento visava facilitar a jornada de compra. Além disso, escolhi o faturamento como uma métrica secundária do projeto, com o objetivo de analisar se o aumento no número de compras está refletindo positivamente na receita ou se está afetando negativamente o ticket médio.
 ##### Definição de Hipóteses
 + H0: Não existe diferença no número de compras entre os dois grupos.
@@ -8,10 +10,13 @@
 + alpha: 5% ou 0,05
 ### Testes para o Usuário Médio
 ##### Ao realizar um t-Test de duas amostras assumindo variâncias iguais utilizando a KPI número de compras, obtive os seguintes resultados:
-![[Pasted image 20240409163435.png]]
+
+![image](https://github.com/TiagoTBarreto/ProjetoA-B/assets/137197787/41fc7caf-971f-4023-84b5-3346776d8459)
+
 + Apesar do Uplift ter sido negativo e do número de compras no Grupo de Teste ter sido 0,3538% menor do que no Grupo de Controle, o p-valor de 0,2891 foi maior do que o alpha definido. Portanto, não temos evidências suficientes para rejeitar a hipótese nula de que não houve diferença significativa nas compras entre os dois grupos.
 ##### Ao realizar um t-Test de duas amostras assumindo variâncias iguais utilizando a métrica secundária/Health Receita, obtive os seguintes resultados:
-![[Pasted image 20240409164446.png]]
+![image](https://github.com/TiagoTBarreto/ProjetoA-B/assets/137197787/5139ce33-17e3-492a-9583-ebdccac5ac02)
+
 + Embora o Uplift tenha sido negativo e a receita gerada pelo Grupo de Teste tenha sido 0,3136% menor que a do Grupo de Controle, o p-valor de 0,3211 foi superior ao alpha definido. Portanto, não dispomos de evidências suficientes para rejeitar a hipótese nula de que não houve diferença significativa na receita entre os dois grupos.
 ##### Conclusões dos testes para o Usuário Médio
 + Mesmo não alcançando significância estatística em ambos os testes, o fato de o Uplift ser negativo sugere que, em média, o novo método de Preenchimento de Dados foi ineficaz para o usuário médio.
