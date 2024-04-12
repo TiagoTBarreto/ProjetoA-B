@@ -23,19 +23,23 @@
 + Mesmo que o teste A/B tenha sido perdedor para o usuário médio, isso não significa que devemos encerrar nossas investigações. Dada a complexidade do mundo atual, é essencial explorar além e realizar uma análise segmentada. É nesses nichos específicos que podem estar escondidas as verdadeiras oportunidades de ouro.
 ### Testes para o segmento Dispositivo/Tipo de Acesso
 ##### Ao realizar um teste t de duas amostras assumindo variâncias iguais, utilizando a KPI número de compras e a métrica secundária Receita exclusivamente para o aplicativo, os resultados foram os seguintes:
-![[Pasted image 20240409175757.png]]
+![image](https://github.com/TiagoTBarreto/ProjetoA-B/assets/137197787/8ffd06ef-d061-4861-8b3f-f08ea2a3fc93)
+
 + Pode-se observar que houve um impacto negativo em ambas as métricas, indicando que o tratamento não foi eficaz para o segmento de aplicativos móveis (telefone).
 ##### Ao realizar um teste t de duas amostras assumindo variâncias iguais, utilizando a KPI número de compras e a métrica secundária Receita exclusivamente para compras feita no site, os resultados foram os seguintes:
-![[Pasted image 20240410071745.png]]
+![image](https://github.com/TiagoTBarreto/ProjetoA-B/assets/137197787/b7d362f2-5858-456b-bf81-72c201f44f78)
+
 + Pode-se observar que houve um impacto negativo em ambas as métricas, indicando que o tratamento não foi eficaz para o segmento de acesso pelo site(internet).
 ##### Conclusões dos testes para o segmento Dispositivo
  + Embora não tenhamos alcançado significância estatística em nenhum dos testes, a constatação de um Uplift negativo sugere que, em média, o novo método de Preenchimento de Dados foi ineficaz para ambos os segmentos de dispositivos.
 ### Testes para o segmento Gênero
 ##### Ao realizar um teste t de duas amostras assumindo variâncias iguais, utilizando a KPI número de compras e a métrica secundária Receita exclusivamente para homens, os resultados foram os seguintes:
-![[Pasted image 20240410072112.png]]
+![image](https://github.com/TiagoTBarreto/ProjetoA-B/assets/137197787/74470397-1bc7-4e92-a8ae-21938f799f2a)
+
 + No primeiro teste, com a KPI (número de compras), registrou-se um uplift negativo de -0,2983%, enquanto no segundo teste houve um uplift de 0,0891% nos gastos para o segmento masculino.
 ##### Ao realizar um teste t de duas amostras assumindo variâncias iguais, utilizando a KPI número de compras e a métrica secundária Receita exclusivamente para mulheres, os resultados foram os seguintes:
-![[Pasted image 20240410072402.png]]
+![image](https://github.com/TiagoTBarreto/ProjetoA-B/assets/137197787/6aa847e4-59d8-4e77-8b72-3fec1105b4f7)
+
  + No primeiro teste, com a KPI (número de compras), registrou-se um uplift negativo de -0,4035%, enquanto no segundo teste houve um uplift negativo de de -0,7306% nos gastos para o segmento feminino.
 
 ##### Conclusões dos testes para o segmento Gênero
@@ -44,25 +48,34 @@
 ### Testes para o segmento País
 ##### Ao realizar um teste t de duas amostras assumindo variâncias iguais, utilizando a KPI número de compras e a métrica secundária Receita individualmente para cada país, obtive os seguintes resultados:
 ###### Austrália:
-![[Pasted image 20240410073444.png]]
+![image](https://github.com/TiagoTBarreto/ProjetoA-B/assets/137197787/f1e3f21d-ae24-4384-8341-18d5e54f52b7)
+
 ###### Brasil:
-![[Pasted image 20240410073335.png]]
+![image](https://github.com/TiagoTBarreto/ProjetoA-B/assets/137197787/e8ff1851-0f3d-4919-bdf1-c7f9510e3eac)
+
 ###### Canadá:
-![[Pasted image 20240410073355.png]]
+![image](https://github.com/TiagoTBarreto/ProjetoA-B/assets/137197787/dc842416-0e8e-41e3-b6cb-fbd27deee1ed)
+
 ###### Deutsch
-![[Pasted image 20240410073547.png]]
+![image](https://github.com/TiagoTBarreto/ProjetoA-B/assets/137197787/a489a409-5a8b-41c1-ac00-cdd0c05a3448)
+
 ###### Espanha:
-![[Pasted image 20240410073612.png]]
+![image](https://github.com/TiagoTBarreto/ProjetoA-B/assets/137197787/0dc6e3ad-11e2-4863-ae1a-fb587cbbac7a)
+
 ###### França:
-![[Pasted image 20240410073628.png]]
+![image](https://github.com/TiagoTBarreto/ProjetoA-B/assets/137197787/78bde709-c3e0-4263-9855-0e67372d1f1f)
+
 ###### Grã-Bretanha:
-![[Pasted image 20240410073713.png]]
+![image](https://github.com/TiagoTBarreto/ProjetoA-B/assets/137197787/eff8e3cf-64aa-44ae-ae48-48f578f4399a)
+
 ###### México:
-![[Pasted image 20240410073732.png]]
+![image](https://github.com/TiagoTBarreto/ProjetoA-B/assets/137197787/66020728-0ab2-4f44-9b94-d578a8703ba2)
+
 ###### Turquia:
-![[Pasted image 20240410073755.png]]
+![image](https://github.com/TiagoTBarreto/ProjetoA-B/assets/137197787/698ac6a8-7a72-4120-ad9c-c535d5154a33)
+
 ###### Estados Unidos:
-![[Pasted image 20240410073813.png]]
+![image](https://github.com/TiagoTBarreto/ProjetoA-B/assets/137197787/534005e5-3d8a-4d77-a081-5f454ef85ce0)
 
 ##### Conclusões dos testes para o segmento País:
  + Apesar do Grupo de Teste ter registrado um Uplift positivo em ambas as métricas em países como Austrália, México, Turquia e Estados Unidos, somente na Austrália podemos afirmar com 95% de confiança que esse aumento não foi devido à aleatoriedade. Nos demais países, observou-se um Uplift negativo.
